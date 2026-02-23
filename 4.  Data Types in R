@@ -1,0 +1,10 @@
+# Data Types in R
+a <- 10
+b <- 3.5
+c <- "Data"
+d <- TRUE
+print(class(a))
+print(class(b))
+print(class(c))
+print(class(d))
+
