@@ -1,0 +1,7 @@
+# Logical Vector Operations
+x <- c(TRUE,FALSE,TRUE)
+y <- c(FALSE,TRUE,TRUE)
+print(x & y)
+print(x | y)
+print(!x)
+print(any(x))
