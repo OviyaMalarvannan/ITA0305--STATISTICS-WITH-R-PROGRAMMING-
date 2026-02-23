@@ -1,0 +1,12 @@
+Topic 1: Functions in R 
+1. Analyze function behavior with multiple inputs
+add_analyze <- function(a, b, c) {
+  result <- a + b + c
+  if(result > 50) {
+    return("High Value")
+  } else {
+    return("Low Value")
+  }
+}
+x <- add_analyze(10, 20, 30)
+print(x)
