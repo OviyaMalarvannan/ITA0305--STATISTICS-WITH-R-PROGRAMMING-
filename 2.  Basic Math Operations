@@ -1,0 +1,11 @@
+# Basic Math Operations
+a <- 10
+b <- 3
+add <- a + b
+sub <- a - b
+mul <- a * b
+div <- a / b
+mod <- a %% b
+pow <- a ^ b
+print(add)
+
