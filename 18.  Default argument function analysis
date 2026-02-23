@@ -1,0 +1,7 @@
+Default argument function analysis
+power_func <- function(x, y=2) {
+  return(x^y)
+}
+print(power_func(4))
+print(power_func(4,3))
+
