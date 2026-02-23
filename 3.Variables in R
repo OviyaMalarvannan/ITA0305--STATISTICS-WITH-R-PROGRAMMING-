@@ -1,0 +1,12 @@
+# Variables in R
+x <- 10
+y <- 20
+z <- x + y
+name <- "R Language"
+flag <- TRUE
+print(x)
+print(y)
+print(z)
+print(name)
+print(flag)
+
