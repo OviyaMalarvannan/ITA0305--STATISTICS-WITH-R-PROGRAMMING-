@@ -1,0 +1,10 @@
+# Atomic Vectors
+v1 <- c(1,2,3,4)
+v2 <- c(TRUE,FALSE,TRUE)
+v3 <- c("A","B","C")
+print(v1)
+print(v2)
+print(v3)
+print(length(v1))
+print(class(v1))
+
