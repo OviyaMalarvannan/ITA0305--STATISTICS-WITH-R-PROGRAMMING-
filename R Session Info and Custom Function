@@ -1,0 +1,11 @@
+# R Session Info and Custom Function
+print(sessionInfo())
+square <- function(x) {
+  return(x*x)
+}
+a <- 5
+b <- square(a)
+print(b)
+print("Session active")
+print(ls())
+
