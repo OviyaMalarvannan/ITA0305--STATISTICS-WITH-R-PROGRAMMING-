@@ -1,0 +1,8 @@
+# Character Vectors
+names <- c("Ram","Sam","Tom")
+print(names)
+print(names[1])
+print(toupper(names))
+print(paste(names, collapse=","))
+print(length(names))
+
