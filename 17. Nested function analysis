@@ -1,0 +1,8 @@
+. Nested function analysis
+outer_func <- function(x) {
+  inner_func <- function(y) {
+    return(y^2)
+  }
+  return(inner_func(x) + x)
+}
+print(outer_func(5))
