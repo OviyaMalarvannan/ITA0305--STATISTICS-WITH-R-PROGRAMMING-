@@ -1,0 +1,10 @@
+# Calculations in R
+x <- 1:5
+sum_x <- sum(x)
+mean_x <- mean(x)
+sd_x <- sd(x)
+max_x <- max(x)
+min_x <- min(x)
+print(sum_x)
+print(mean_x)
+
