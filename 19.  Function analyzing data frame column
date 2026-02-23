@@ -1,0 +1,13 @@
+. Function analyzing data frame column
+avg_salary <- function(df) {
+  return(mean(df$salary))
+}
+data <- data.frame(salary=c(20000,30000,40000))
+print(avg_salary(data))
+10. Apply function for analysis
+values <- c(4,9,16,25)
+sqrt_func <- function(x) {
+  return(sqrt(x))
+}
+result <- sapply(values, sqrt_func)
+print(result)
