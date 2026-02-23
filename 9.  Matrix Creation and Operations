@@ -1,0 +1,9 @@
+# Matrix Creation and Operations
+m1 <- matrix(1:6, nrow=2)
+m2 <- matrix(7:12, nrow=2)
+add <- m1 + m2
+mul <- m1 * m2
+print(m1)
+print(m2)
+print(add)
+print(mul)
